@@ -197,7 +197,7 @@ class Discord:
             
         self.webhook = DiscordWebhook(
             url=webhookUrl,
-            username="RoSpeed v2.5",
+            username=".",
             content=dping,
             rate_limit_retry=True
             )
@@ -216,7 +216,7 @@ class Discord:
             color=491519
         )
         embed.set_author(
-            name = "RoSpeed",
+            name = "ro",
             icon_url = "https://i.ibb.co/YXDYq2s/images-5-removebg-preview.png"
          )
         embed.set_thumbnail(url = "https://i.ibb.co/YXDYq2s/images-5-removebg-preview.png")
